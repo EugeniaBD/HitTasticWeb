@@ -1,0 +1,32 @@
+@startuml
+class com.Comment
+enum com.PointOfInterestType {
+    HOSPITAL
+    RESTUARANT
+    SCHOOL
+}
+class com.PointOfInterest {
+    List<Comment>: comments
+    PointOfInterestType: type
+}
+class com.DatabaseConnection
+class com.PointOfInterestService
+class com.PointOfInterestsServlet {
+    # void doGet(HttpServletRequest request, HttpServletResponse response)
+}
+class com.PointOfInterestServlet {
+    # void doGet(HttpServletRequest request, HttpServletResponse response)
+}
+class com.CommentServlet {
+    # void doPost(HttpServletRequest request, HttpServletResponse response)
+}
+com.PointOfInterest *.. com.PointOfInterestType
+com.PointOfInterest *.. com.Comment
+com.DatabaseConnection *.. com.PointOfInterestService
+com.PointOfInterestService *.. com.CommentServlet
+com.PointOfInterestService *.. com.PointOfInterestsServlet
+com.PointOfInterestService *.. com.PointOfInterestServlet
+com.CommentServlet ---|> javax.servlet.http.HttpServlet
+com.PointOfInterestServlet ---|> javax.servlet.http.HttpServlet
+com.PointOfInterestsServlet ---|> javax.servlet.http.HttpServlet
+@enduml
