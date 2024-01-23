@@ -1,0 +1,31 @@
+# NetBeans-specific files
+/nbproject/private/
+/nbproject/Makefile-*
+/nbproject/Package-*
+/nbproject/built-jar.properties
+/nbproject/genfiles.properties
+/nbproject/project.properties
+/nbproject/project.xml
+/nbproject/build-impl.xml
+/nbproject/genfiles/javadoc
+/nbproject/genfiles/src-mgr
+/nbproject/genfiles/build.xml
+
+# NetBeans Gradle Plugin
+/build/
+
+# IntelliJ IDEA-specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Gradle-specific files
+.gradle/
+build/
+
