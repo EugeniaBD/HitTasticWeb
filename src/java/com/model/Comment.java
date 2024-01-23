@@ -2,19 +2,23 @@ package com.model;
 
 import java.time.LocalDateTime;
 
+//define a public class so it can be accesible from outside the package
 public class Comment {
-
+//define a Java Class  with the atributes below and their type
+    //the class is public so it can be accesible from other classes
     private int id;
     private String text;
-    private boolean authorise;
+    private boolean authorise;// this variable can be true or false
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+    
+    
 
     public Comment(int id, boolean authorise, String text) {
-        this.id = id;
-        this.authorise = authorise;
+        this.id = id; // id is a unigue identifier for the comment
+        this.authorise = authorise; //A boolean variable that likely indicates whether the comment is authorized or not.
         this.text = text;
-        this.createdAt = LocalDateTime.now();
+        this.createdAt = LocalDateTime.now();//A variable of type LocalDateTime to store the timestamp when the comment was created.
         this.updatedAt = LocalDateTime.now();
     }
 
@@ -23,6 +27,8 @@ public class Comment {
         this.updatedAt = LocalDateTime.now();
     }
 
+    
+//    getter and setter for the used functions
     public int getId() {
         return id;
     }
