@@ -2,6 +2,11 @@ package com.model;
 
 import java.time.LocalDateTime;
 
+/**
+ *
+ * @author eugen
+ */
+
 //define a public class so it can be accesible from outside the package
 public class Comment {
 //define a Java Class  with the atributes below and their type

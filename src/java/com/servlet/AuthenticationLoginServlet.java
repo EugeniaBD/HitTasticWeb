@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author jeeva
+ * @author eugen
  */
 @WebServlet(name = "AuthenticationLoginServlet", urlPatterns = {"/AuthenticationLogin"})
 public class AuthenticationLoginServlet extends HttpServlet {

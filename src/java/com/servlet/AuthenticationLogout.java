@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author jeeva
+ * @author eugen
  */
 @WebServlet(name = "AuthenticationLogout", urlPatterns = {"/AuthenticationLogout"})
 public class AuthenticationLogout extends HttpServlet {

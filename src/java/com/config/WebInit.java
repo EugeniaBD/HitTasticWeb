@@ -11,6 +11,11 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebListener;
 
+/**
+ *
+ * @author eugen
+ */
+
 @WebListener
 public class WebInit implements ServletContainerInitializer{    
 

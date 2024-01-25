@@ -4,6 +4,11 @@ import com.enums.PointOfInterestType;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author eugen
+ */
+
 public class PointOfInterest {
 
     private int id;

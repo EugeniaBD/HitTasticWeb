@@ -14,6 +14,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ *
+ * @author eugen
+ */
+
 @WebServlet(name = "PointOfInterestsServlet", urlPatterns = {"/PointOfInterestsServlet"})
 public class PointOfInterestsServlet extends HttpServlet {
 

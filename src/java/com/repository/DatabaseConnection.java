@@ -8,6 +8,11 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ *
+ * @author eugen
+ */
+
 public class DatabaseConnection {
 
     private static Connection connection;
